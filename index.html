@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#00325a" />
+    <title>Criptografia</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body ondblclick="setFullScreenMode(this)">
+    <img class="bg" src="img/jj-ying-8bghKxNU1j0-unsplash.jpg" alt="background" />
+    <header class="">
+      <div class="logo">
+        <span>Descryptron</span>
+      </div>
+      <span>by Reyzin</span>
+    </header>
+
+    <main id="main">
+      <section class="conteiner">
+        <div class="box options">
+          <label for="descryption" class="line-box">
+            <input
+              class="mode-options"
+              type="radio"
+              checked="true"
+              name="mode"
+              id="descryption"
+            />
+            <span>Descriptografar</span>
+            <span class="check-box"></span>
+          </label>
+          <hr class="line" />
+          <label for="cryption" class="line-box">
+            <input
+              class="mode-options"
+              type="radio"
+              name="mode"
+              id="cryption"
+            />
+            <span for="descryption">Criptografar</span>
+            <span class="check-box"></span>
+          </label>
+        </div>
+        <hr class="line" />
+        <p>Digite algo!</p>
+        <div class="box">
+          <label class="textarea-label" for="text-input"
+            >Entrada de texto</label
+          >
+          <textarea
+            name="text-input"
+            id="text-input"
+            rows="8"
+            cols="40"
+          ></textarea>
+        </div>
+        <div class="box">
+          <label class="textarea-label" for="text-output">Saída de texto</label>
+          <textarea
+            name="text-output"
+            id="text-output"
+            rows="8"
+            cols="40"
+          ></textarea>
+        </div>
+      </section>
+    </main>
+    <script src="keys.js" type="text/javascript" charset="utf-8"></script>
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
