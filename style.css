@@ -7,7 +7,6 @@
   font-family: Monospace;
   --bg: #095593;
   --primary: #99ff88;
-  /* --bg: #095593; */
 }
 .bg{
   position: absolute;
